@@ -8,14 +8,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Tom and Melissa</h2>
-          <div>
-            <Button onClick={() => alert('test')}>Click here</Button>
-          </div>
+          <h1>Tom and Melissa</h1>
+          <Button onClick={() => alert('December 8, 2018')}>Click here</Button>
         </div>
-        <p className="App-intro">
+        <h1 className="App-intro">
           We are getting married!
-        </p>
+        </h1>
       </div>
     );
   }

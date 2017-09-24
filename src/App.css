@@ -4,15 +4,19 @@
 
 .App-header {
   background-color: white;
-  height: 150px;
+  height: 125px;
   padding: 20px;
   color: black;
+  font-family: 'Pacifico', cursive;
 }
 
 .App-intro {
   font-size: large;
   color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
