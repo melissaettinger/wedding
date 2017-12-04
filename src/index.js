@@ -7,9 +7,7 @@ import App from './components/App/App';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-
 import {indigo900, white} from 'material-ui/styles/colors'
-import createPalette from 'material-ui/styles/createPalette'
 
 const myTheme = getMuiTheme({
   palette: {
