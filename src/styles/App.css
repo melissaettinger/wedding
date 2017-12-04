@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; 
+}
+.App-header h1 {
+  font-size: 6em;
+  margin: 5px;
+}
+.App-header h3 {
+  font-size: 4em;
+  margin: 5px;
+}
+
+.App-intro {
+  font-size: large;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-header {
+  background-image: url("http://res.cloudinary.com/melissa/image/upload/v1506181527/edited_jgb54l.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
